@@ -1,0 +1,38 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: cornsilk;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 25px;
+    background-color: aliceblue;
+    border: solid 10px #333333;
+    height: 60vh;
+}
+
+div.lab-thoughts {
+    padding: 25px;
+    background-color: bisque;
+    border: solid 10px #333333;
+    height: 80vh;
+}
+
+h1, h2, h3 {
+    font-family: cursive;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
