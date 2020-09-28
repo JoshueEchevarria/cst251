@@ -1,0 +1,30 @@
+div.image {
+    padding: 25px;
+    background-color: aliceblue;
+    border: solid 10px #333333;
+    height: 60vh;
+}
+
+div.lab-thoughts {
+    padding: 25px;
+    background-color: bisque;
+    border: solid 10px #333333;
+    height: 60vh;
+}
+
+h1, h2, h3 {
+    font-family: cursive;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.image :hover {
+    transform: scale(1.1);
+}
+
+.lab-thoughts p {
+    color: green;
+}
