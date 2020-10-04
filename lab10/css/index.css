@@ -1,0 +1,65 @@
+div#content {
+    padding: 25px;
+    background-color: aliceblue;
+    border: solid 10px #333333;
+    height: auto;
+}
+
+div#content {
+  border-style: dotted dashed solid double;
+  border-color: cornflowerblue;
+}
+
+div.purpose {
+    padding: 25px;
+    width: 400px;
+    background-color: bisque;
+    border-style: inset;
+    margin: 10px 10px 10px 10px;
+    height: auto;
+}
+
+div.challenges {
+    padding: 25px;
+    width: 400px;
+    background-color: bisque;
+    border-style: inset;
+    margin: 10px 10px 10px 10px;
+    height: auto;
+}
+
+div.results {
+    padding: 25px;
+    width: 400px;
+    background-color: bisque;
+    border-style: inset;
+    margin: 10px 10px 10px 10px;
+    height: auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Sansita Swashed', cursive;
+    color: crimson;
+}
+div.results h2 {
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+}
+
+div.challenges h2{
+      letter-spacing: 8px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
