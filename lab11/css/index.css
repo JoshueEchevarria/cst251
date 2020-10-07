@@ -1,0 +1,13 @@
+
+nav#links {
+    position: sticky;
+    top: 0px;
+    border: 3px;
+}
+
+aside#sidebar {
+    display: inline-block;
+    min-width: 200px;
+    width: 30%;
+    float: right;
+}
