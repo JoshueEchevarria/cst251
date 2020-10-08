@@ -1,13 +1,14 @@
-div#content {
-    padding: 25px;
-    background-color: aliceblue;
-    border: solid 10px #333333;
-    height: auto;
-}
-
-div#content {
+main#content {
   border-style: dotted dashed solid double;
   border-color: cornflowerblue;
+}
+
+aside#sidebar {
+    display: inline-block;
+    border: solid 3px maroon;
+    min-width: 200px;
+    width: 30%;
+    float: right;
 }
 
 div.purpose {
@@ -69,11 +70,5 @@ nav#links {
     position: sticky;
     top: 0px;
     border: 3px;
-}
-
-aside#sidebar {
     display: inline-block;
-    min-width: 200px;
-    width: 30%;
-    float: right;
 }
