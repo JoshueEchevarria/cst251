@@ -1,0 +1,106 @@
+div#floated {
+    float: right;
+}
+
+#center-horz {
+    text-align: center;
+}
+
+div#center-img {
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    clear: center;
+}
+
+div#center-both {
+    height: 200px;
+    position: relative;
+}
+
+#center-both img {
+     margin: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+}
+
+div#content {
+    border-style: dotted dashed solid double;
+    border-color: cornflowerblue;
+}
+
+main#content {
+  border-style: dotted dashed solid double;
+  border-color: cornflowerblue;
+}
+
+aside#sidebar {
+    display: inline-block;
+    border: solid 3px maroon;
+    min-width: 200px;
+    float: right;
+}
+
+div.purpose {
+    padding: 25px;
+    width: 400px;
+    background-color: bisque;
+    border-style: inset;
+    margin: 10px 10px 10px 10px;
+    height: auto;
+    width: 30%;
+}
+
+div.challenges {
+    padding: 25px;
+    width: 400px;
+    background-color: bisque;
+    border-style: inset;
+    margin: 10px 10px 10px 10px;
+    height: auto;
+    width: 30%;
+}
+
+div.results {
+    padding: 25px;
+    width: 400px;
+    background-color: bisque;
+    border-style: inset;
+    margin: 10px 10px 10px 10px;
+    height: auto;
+    width: 30%;
+}
+
+h1, h2, h3 {
+    font-family: 'Sansita Swashed', cursive;
+    color: crimson;
+}
+
+div.results h2 {
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+}
+
+div.challenges h2{
+      letter-spacing: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+nav#links {
+    position: sticky;
+    top: 0px;
+    border: 3px;
+    display: inline-block;
+}
