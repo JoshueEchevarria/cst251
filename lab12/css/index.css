@@ -1,48 +1,37 @@
 div#floated {
     float: right;
+    width: 25%;
+    border: 2px solid black;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
 }
 
-#center-horz {
+div#center-horz {
+    margin: auto;
+    width: 25%;
+    border: 2px solid black;
+    margin: auto;
+    padding: 10px;
     text-align: center;
 }
 
 div#center-img {
+    margin: auto;
+    width: 30%;
     text-align: center;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    clear: center;
 }
 
 div#center-both {
-    height: 200px;
-    position: relative;
-}
-
-#center-both img {
-     margin: 0;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     -ms-transform: translate(-50%, -50%);
-     transform: translate(-50%, -50%);
+     margin: auto;
+     width: 30%;
+     display: flex;
+     justify-content: center;
 }
 
 div#content {
     border-style: dotted dashed solid double;
     border-color: cornflowerblue;
-}
-
-main#content {
-  border-style: dotted dashed solid double;
-  border-color: cornflowerblue;
-}
-
-aside#sidebar {
-    display: inline-block;
-    border: solid 3px maroon;
-    min-width: 200px;
-    float: right;
 }
 
 div.purpose {
