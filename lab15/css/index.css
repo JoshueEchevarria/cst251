@@ -1,0 +1,66 @@
+div#content {
+    padding: 25px;
+    background-color: aliceblue;
+    border: solid 10px #333333;
+    height: auto;
+}
+
+div#content {
+    border-style: dotted dashed solid double;
+    border-color: cornflowerblue;
+}
+
+div.image {
+    padding: 25px;
+    width: 400px;
+    background-color: bisque;
+    border: solid 5px #333333;
+    border-style: dashed;
+    margin: 10px 10px 10px 10px;
+    height: auto;
+}
+
+div.lab-thoughts {
+    transform: rotate(10deg);
+    padding: 25px;
+    width: 400px;
+    background-color: bisque;
+    border-style: inset;
+    margin: 10px 10px 10px 10px;
+    height: auto;
+    background-image: linear-gradient(to right, #acc756, #323d10);
+}
+}
+
+h1, h2, h3 {
+    font-family: cursive;
+}
+
+h1 {
+    text-shadow: 0 0 5px black;
+}
+
+div {
+    box-shadow: 3px 3px 5px grey;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    filter: grayscale(100%);
+    border-radius: 25px;
+    border: 2px
+    solid #73AD21;
+    width:300px;
+    height:400px;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
