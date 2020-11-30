@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#navbar-brand {
+  background-color: yellow;
+}
+
+div#content {
+    padding: 25px;
+    background-color: aliceblue;
+    border: solid 10px #333333;
+    height: auto;
+}
+
+div#content {
+  border-style: dotted dashed solid double;
+  border-color: cornflowerblue;
+}
+
+div.image {
+    padding: 25px;
+    width: 400px;
+    background-color: bisque;
+    border: solid 5px #333333;
+    border-style: dashed;
+    margin: 10px 10px 10px 10px;
+    height: auto;
+}
+
+div.lab-thoughts {
+    padding: 25px;
+    width: 400px;
+    background-color: bisque;
+    border-style: inset;
+    margin: 10px 10px 10px 10px;
+    height: auto;
+}
+
+h1, h2, h3 {
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
